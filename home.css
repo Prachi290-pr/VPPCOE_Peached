@@ -24,13 +24,13 @@ body, html{
     width:100%;
     justify-content: space-between;
     padding: 20px;
-    color:rgb(244, 239, 222);
+    color:#885811;
 }
 .navbar a{
-    color:rgb(244, 239, 222);
+    color:#885811;
 }
 .navbar a:hover{
-    color:#291b04;
+    color:#000000;
 }
 
 .nav-links{
@@ -47,7 +47,7 @@ body, html{
 header{
     width:100vw;
     height:100vh;
-    background-image: url('./brown.jpg');
+    background-image: url('./beige.jpg');
     background-position:bottom;
     background-size: cover;
     display: flex;
@@ -56,17 +56,17 @@ header{
 }
 .header-content{
     margin-bottom:150px;
-    color:rgb(244, 239, 222);
+    color:#885811;
     text-align:center;
     font-size:20px;
 }
 .header-content h2{
-    font-size: 5vmin;
+    font-size: 5.5vmin;
 }
 .line{
     width:350px;
     height:4px;
-    background: #291b04;
+    background: #885811;
     margin:10px auto;
     border-radius:5px;
 }
@@ -78,13 +78,17 @@ header{
 
 .ctn{
     padding: 8px 15px;
-    background:#291b04;
+    background:#885811;
     border-radius:30px;
     color:rgb(244, 239, 222);
 }
 .ctn:hover{
     background:rgb(244, 239, 222);
-    color:#291b04;
+    color:#885811;
+}
+.ctn .a{
+    color:rgb(244, 239, 222);
+
 }
 .menu-btn{
     position:absolute;
@@ -102,7 +106,7 @@ section{
 .title{
     text-align:center;
     font-size:4vmin;
-    color:#291b04;
+    color:#885811;
 }
 .row{
     display:flex;
@@ -124,11 +128,11 @@ section{
 }
 h4{
     font-size:5vmin;
-    color:#684918;
+    color:#885811;
     margin:20px auto;
 }
 p {
-    color:#846025;
+    color:#885811;
     padding:0px 40px;
 }
 .events .ctn{
@@ -141,11 +145,11 @@ p {
     min-height:90px;
     padding:20px 80px;
     margin:0;
-    background:#291b04;
+    background:#885811;
     text-align:center;
 }
 .footer p{
-    color:#846025;
+    color:rgb(244, 239, 222);
     margin:20px auto;
     font-size: 3.5vmin;
 }
